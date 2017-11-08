@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+.bgc{
+	background-color:#e6e6e6;
+}
+
+.custom-paragraph-style{
+	font-family: "Times New Roman";
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom:20px;
+}
+.custom-text-style{
+	font-family: "Times New Roman";
+	font-size: 15px;
+}
+.custom-header-style-main{
+	font-family: "Century Schoolbook";
+	font-size: 45px;
+	padding-bottom:20px;
+	font-weight: 400;
+    display: block;
+}

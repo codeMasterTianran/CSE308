@@ -1,0 +1,398 @@
+
+/** color
+*/
+
+
+.scroll a:hover,.scroll a.active,.scroll a:active {
+    border-left-color:  red;
+    background-color:rgba(221, 221, 221, 0.5);
+}
+
+
+/**
+.scroll a:hover:not(.active) {
+    border-left-color: white;
+}
+**/
+scroll a.active{
+    border-left-color:  red;
+    background-color:rgba(221, 221, 221, 0.5);
+}
+
+scroll a.active{
+    border-left-color:  rgb(26, 255, 26);
+
+}
+
+.scroll{
+    position: fixed;
+    overflow-y: auto !important;
+    top:0;
+    bottom:0;
+    float: left;
+    height: 100vh;
+
+}
+
+.scroll a{
+    border-left: 3px solid #fafafa  ;
+    text-decoration: none;
+    padding-left: 10px;
+    color:  #000;
+}
+.scroll a:hover{
+    background-color: rgba(221, 221, 221, 0.5);
+}
+.content{
+    position: relative;
+    overflow-y: auto !important;
+    top:0;
+
+    float: left;
+
+    background-color: white;
+}
+.navbar-brand:hover{
+    background: none;
+}
+
+.object-fit-cover{
+    object-fit:cover;
+}
+
+.h-rem-10{
+    height: 10rem;
+}
+.h-rem-6{
+    height: 6rem;
+}
+.profile-image-m{
+    height: 5rem;
+    width: 5rem;
+}
+.profile-image-s{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.image-xs{
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+.bg-red{
+    background-color: red;
+}
+.nav a.border-bottom-line{
+    border-bottom:solid white;
+
+}
+.nav a.border-bottom-line:hover {
+    color: black !important;
+}
+.nav a.border-bottom-line.active {
+    border-bottom-color:black;
+}
+
+
+.sticky{
+    position: fixed;
+    top: 3.5rem;
+    width: 100% ;
+    border: 5px solid black;
+    z-index: 100;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+
+}
+
+
+.fixed-bottom{
+    position: fixed;
+    bottom:0;
+    z-index: 100!important;
+    margin: 0;
+    padding: 0;
+
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none !important;
+    width: 25px;
+    height: 25px;
+    background: honeydew;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: honeydew;
+    cursor: pointer;
+}
+
+
+/**
+album cover
+*/
+.album-section{
+    position: relative;
+}
+
+.album-section  .album-image-md{
+    height: 8rem !important;
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.4s ease;
+}
+.album-section  .album-image-square-md{
+    height: 8rem !important;
+    width: 8rem !important;
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+.album-section .album-overlay-control-group{
+    width: 100% !important;
+    height: 8rem !important;
+    opacity: 0;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+.album-section .album-square-md-overlay-control-group{
+    width: 10rem !important;
+    height: 10rem !important;
+    opacity: 0;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+
+.card{
+    border: none !important;
+}
+.ablum-description{
+    height: 3rem !important;
+    overflow: hidden;
+}
+.left-control{
+    position: absolute;
+    left: 0;
+    bottom: 5rem;
+    font-size: 2.25rem !important;
+    text-decoration: none !important;
+    color: red;
+
+
+}
+.right-control{
+    position: absolute;
+    display: inline-block ;
+    right: 0;
+    bottom: 5rem;
+    font-size: 2.25rem !important;
+    text-decoration: none !important;
+    color: red;
+}
+
+.album-section > .album-item{
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+
+.album-section .card:hover .album-image-md{
+    opacity: 0.4;
+}
+.album-section .card:hover .album-image-square-md{
+    opacity: 0.4;
+
+}
+
+.album-section .card:hover .album-overlay-control-group{
+    opacity: 1;
+
+}
+
+/**artist album */
+.album-cover{
+    opacity: 1;
+    transition: .5s ease-out;
+}
+.album-cover-lg{
+    width: 18rem;
+    height: 18rem;
+}
+.control-overlay{
+    opacity: 0;
+    color: red !important;
+}
+.album:hover .album-cover, .album:hover .control-overlay{
+    opacity: 0.35!important;
+}
+.play-control-md{
+    font-size: 5rem!important;
+    transition: .5s ease-out;
+}
+.play-control-md:hover{
+    opacity: 1;
+    font-size: 8rem !important;
+}
+/**end of artist album */
+
+
+
+
+
+
+
+/** The end of album*/
+
+
+/**
+audio player
+*/
+.overflow-x-hidden{
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.display-hidden{
+    display: none !important;
+}
+
+.audio-control-group{
+    list-style-type: none;
+    vertical-align: middle;
+
+}
+
+.control-item{
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    margin: 0.5rem 1.25rem 0rem 1.25rem;
+    font-size: 1rem !important;
+    font-weight: normal;
+    opacity: 0.4;
+    text-decoration: none !important;
+    transition: .5s ease-out;
+}
+
+.control-item:hover{
+    opacity: 1;
+    color:red;
+}
+
+
+.control-item-enlarge:hover{
+    opacity: 1;
+    color:red;
+    font-size: 3rem !important;
+}
+.control-item-md{
+    font-size: 1.85rem !important;
+    transition: .8s ease-out !important;
+ }
+.control-item-sm{
+    font-size: 1.25rem;
+    transition: .5s ease-out;
+}
+.control-item-lg{
+    font-size: 2.5rem !important;
+    transition: .5s ease-out;
+}
+
+.slider{
+    appearance: none;
+    outline: none;
+    opacity: 0.6;
+}
+.slider:hover {
+    opacity: 1;
+    background-color: #b3d7ff !important;
+}
+
+/**
+song table
+*/
+.table-hover tbody tr{
+    transition: .5s ease-out;
+}
+
+
+.table-hover tbody tr:hover .hover-hide {
+    opacity: 0 !important;
+
+}
+.table-hover tbody tr:hover .hover-show {
+    opacity: 1 !important;
+
+}
+
+
+.table tr.active {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+/*
+*/
+.btn-play{
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    border-radius: 20px;
+    background-color:rgb(77, 255, 184) ;
+    width: 7rem;
+    outline: none !important;
+    overflow-x: hidden;
+}
+/**
+Utilities
+
+*/
+.clean-line{
+    text-decoration:none !important;
+    color: black;
+}
+.position-absolute{
+    position: absolute !important;
+}
+.opacity-0{
+    opacity:0!important;
+}
+.opacity-1{
+    opacity:1 !important;
+}
+
+.outline-clear{
+    outline:none !important;
+}
+
+.box-shadow-effect{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.color-green{
+    color:rgb(0, 255, 85);
+}
+
+
+/**test*/
+.border-test{
+    border: 1px solid black !important;
+}
+.border-test-red{
+    border: 1px solid red !important;
+}
+

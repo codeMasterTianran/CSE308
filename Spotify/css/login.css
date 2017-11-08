@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+.bgc{
+	background-color:#e6e6e6;
+}
+
+.register
+{
+    display: block;
+    margin-top: 10px;
+}
+.sign_in
+{   
+    min-width: 200px;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.sign_in
+{
+    font-weight: normal;
+}
+.sign_in .form-control
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    height: auto;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.sign_in input[type="password"]
+{     
+    margin-bottom: 26px;
+}
+.account_pane
+{   
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
+.profile_photo
+{   
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+.custom-header-style-main{
+	font-family: "Century Schoolbook";
+	font-size: 45px;
+	padding-bottom:20px;
+	font-weight: 400;
+    display: block;
+}
+.custom-text-or-style{
+	font-family: "Century Schoolbook";
+	font-size: 20px;
+	font-weight: 600;
+}
+form { 
+    margin: 0px 10px; 
+}
+.container_form{
+    max-width: 380px;
+}
